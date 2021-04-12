@@ -158,8 +158,6 @@ $(function () {
     //==================Testimonial Part Slider End==================
 
 
-    
-
     //===============Banner Chatbox Js Start=================
 
     $(".banner-chat").on("click", function () {
@@ -192,6 +190,26 @@ $(function () {
 
     //===============Banner Chatbox Js End=================
 
+    //===============Newsletter Modal Js Start===============
+
+
+    $(".cross-icon").on("click", function () {
+        $(".news-modal").fadeOut(300);
+    });
+
+    $(".cross-icon").on("click", function () {
+        $(".bg3").fadeOut(300);
+    });
+
+    $(".bg3").on("click", function () {
+        $(".news-modal").fadeOut(300);
+    });
+
+    $(".bg3").on("click", function () {
+        $(".bg3").fadeOut(300);
+    });
+
+    //===============Newsletter Modal Js End===============
 
     //===============Bottom Chatbox Js Start=================
 
